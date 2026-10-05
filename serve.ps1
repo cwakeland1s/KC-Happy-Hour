@@ -22,7 +22,7 @@ while ($listener.IsListening) {
   $res = $context.Response
   try {
     $path = $req.Url.AbsolutePath
-    if ($path -eq "/") { $path = "/index.html" }
+    if ($path.EndsWith("/")) { $path = $path + "index.html" }
     $filePath = Join-Path $root ($path.TrimStart("/") -replace "/", "\")
     if (Test-Path $filePath -PathType Leaf) {
       $ext = [System.IO.Path]::GetExtension($filePath)

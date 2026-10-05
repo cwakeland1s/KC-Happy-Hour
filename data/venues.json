@@ -1,6 +1,7 @@
 [
     {
         "id": "v1",
+        "slug": "the-rieger-crossroads",
         "name": "The Rieger",
         "address": "1924 Main St, Kansas City, MO",
         "city": "Crossroads",
@@ -15,6 +16,7 @@
     },
     {
         "id": "v2",
+        "slug": "gr-nauer-crossroads",
         "name": "Grünauer",
         "address": "101 W 22nd St, Kansas City, MO",
         "city": "Crossroads",
@@ -29,6 +31,7 @@
     },
     {
         "id": "v3",
+        "slug": "extra-virgin-crossroads",
         "name": "Extra Virgin",
         "address": "1900 Main St, Kansas City, MO",
         "city": "Crossroads",
@@ -43,6 +46,7 @@
     },
     {
         "id": "v4",
+        "slug": "tannin-wine-bar-kitchen-crossroads",
         "name": "Tannin Wine Bar & Kitchen",
         "address": "1526 Walnut St, Kansas City, MO",
         "city": "Crossroads",
@@ -57,6 +61,7 @@
     },
     {
         "id": "v5",
+        "slug": "jack-stack-bbq-freight-house-crossroads",
         "name": "Jack Stack BBQ (Freight House)",
         "address": "101 W 22nd St, Kansas City, MO",
         "city": "Crossroads",
@@ -71,6 +76,7 @@
     },
     {
         "id": "v6",
+        "slug": "corvino-supper-club-tasting-room-crossroads",
         "name": "Corvino Supper Club + Tasting Room",
         "address": "1828 Oak St, Kansas City, MO",
         "city": "Crossroads",
@@ -85,6 +91,7 @@
     },
     {
         "id": "v7",
+        "slug": "tom-s-town-distilling-co-crossroads",
         "name": "Tom's Town Distilling Co.",
         "address": "1701 Main St, Kansas City, MO",
         "city": "Crossroads",
@@ -99,6 +106,7 @@
     },
     {
         "id": "v8",
+        "slug": "mission-taco-joint-crossroads",
         "name": "Mission Taco Joint",
         "address": "1814 Oak St, Kansas City, MO",
         "city": "Crossroads",
@@ -113,6 +121,7 @@
     },
     {
         "id": "v9",
+        "slug": "double-shift-brewing-crossroads",
         "name": "Double Shift Brewing",
         "address": "1632 Washington St, Kansas City, MO",
         "city": "Crossroads",
@@ -127,6 +136,7 @@
     },
     {
         "id": "v10",
+        "slug": "afterword-tavern-shelves-crossroads",
         "name": "Afterword Tavern & Shelves",
         "address": "1834 Grand Blvd, Kansas City, MO",
         "city": "Crossroads",
@@ -141,6 +151,7 @@
     },
     {
         "id": "v11",
+        "slug": "chartreuse-saloon-crossroads",
         "name": "Chartreuse Saloon",
         "address": "1810 Wyandotte St, Kansas City, MO",
         "city": "Crossroads",
@@ -155,6 +166,7 @@
     },
     {
         "id": "v12",
+        "slug": "harry-s-country-club-river-market",
         "name": "Harry's Country Club",
         "address": "112 Missouri Ave, Kansas City, MO",
         "city": "River Market",
@@ -169,6 +181,7 @@
     },
     {
         "id": "v13",
+        "slug": "il-lazzarone-river-market",
         "name": "Il Lazzarone",
         "address": "101 W 5th St, Kansas City, MO",
         "city": "River Market",
@@ -183,6 +196,7 @@
     },
     {
         "id": "v14",
+        "slug": "brown-loe-river-market",
         "name": "Brown & Loe",
         "address": "300 Main St, Kansas City, MO",
         "city": "River Market",
@@ -197,6 +211,7 @@
     },
     {
         "id": "v15",
+        "slug": "the-blue-line-river-market",
         "name": "The Blue Line",
         "address": "417 Delaware St, Kansas City, MO",
         "city": "River Market",
@@ -211,6 +226,7 @@
     },
     {
         "id": "v16",
+        "slug": "the-farmhouse-river-market",
         "name": "The Farmhouse",
         "address": "300 Delaware St, Kansas City, MO",
         "city": "River Market",
@@ -225,6 +241,7 @@
     },
     {
         "id": "v17",
+        "slug": "kansas-city-taco-company-river-market",
         "name": "Kansas City Taco Company",
         "address": "217 W 5th St, Kansas City, MO",
         "city": "River Market",
@@ -239,6 +256,7 @@
     },
     {
         "id": "v18",
+        "slug": "no-other-pub-power-light-district",
         "name": "No Other Pub",
         "address": "1621 Grand Blvd, Kansas City, MO",
         "city": "Power & Light District",
@@ -253,6 +271,7 @@
     },
     {
         "id": "v19",
+        "slug": "palm-tree-kc-power-light-district",
         "name": "Palm Tree KC",
         "address": "1521 Grand Blvd, Kansas City, MO",
         "city": "Power & Light District",
@@ -267,6 +286,7 @@
     },
     {
         "id": "v20",
+        "slug": "county-road-ice-house-bbq-bar-power-light-district",
         "name": "County Road Ice House BBQ & Bar",
         "address": "1521 Grand Blvd, Kansas City, MO",
         "city": "Power & Light District",
@@ -281,6 +301,7 @@
     },
     {
         "id": "v21",
+        "slug": "bristol-seafood-steak-social-power-light-district",
         "name": "Bristol Seafood + Steak + Social",
         "address": "1600 Main St, Kansas City, MO",
         "city": "Power & Light District",
@@ -295,6 +316,7 @@
     },
     {
         "id": "v22",
+        "slug": "brgr-kitchen-bar-power-light-district",
         "name": "BRGR Kitchen + Bar",
         "address": "1322 Grand Blvd, Kansas City, MO",
         "city": "Power & Light District",
@@ -309,6 +331,7 @@
     },
     {
         "id": "v23",
+        "slug": "bluestem-westport",
         "name": "Bluestem",
         "address": "900 Westport Rd, Kansas City, MO",
         "city": "Westport",
@@ -323,6 +346,7 @@
     },
     {
         "id": "v24",
+        "slug": "ca-va-westport",
         "name": "Ca Va",
         "address": "4149 Pennsylvania Ave, Kansas City, MO",
         "city": "Westport",
@@ -337,6 +361,7 @@
     },
     {
         "id": "v25",
+        "slug": "westport-cafe-and-bar-westport",
         "name": "Westport Cafe and Bar",
         "address": "410 Westport Rd, Kansas City, MO",
         "city": "Westport",
@@ -351,6 +376,7 @@
     },
     {
         "id": "v26",
+        "slug": "laney-s-get-down-westport",
         "name": "Laney's Get Down",
         "address": "1715 Westport Rd, Kansas City, MO",
         "city": "Westport",
@@ -365,6 +391,7 @@
     },
     {
         "id": "v27",
+        "slug": "beer-kitchen-westport",
         "name": "Beer Kitchen",
         "address": "435 Westport Rd, Kansas City, MO",
         "city": "Westport",
@@ -379,6 +406,7 @@
     },
     {
         "id": "v28",
+        "slug": "char-bar-westport",
         "name": "Char Bar",
         "address": "4050 Pennsylvania Ave, Kansas City, MO",
         "city": "Westport",
@@ -393,6 +421,7 @@
     },
     {
         "id": "v29",
+        "slug": "kelly-s-westport-inn-westport",
         "name": "Kelly's Westport Inn",
         "address": "500 Westport Rd, Kansas City, MO",
         "city": "Westport",
@@ -407,6 +436,7 @@
     },
     {
         "id": "v30",
+        "slug": "harry-s-bar-tables-westport",
         "name": "Harry's Bar & Tables",
         "address": "501 Westport Rd, Kansas City, MO",
         "city": "Westport",
@@ -421,6 +451,7 @@
     },
     {
         "id": "v31",
+        "slug": "chewology-westport",
         "name": "Chewology",
         "address": "900 Westport Rd, Kansas City, MO",
         "city": "Westport",
@@ -435,6 +466,7 @@
     },
     {
         "id": "v32",
+        "slug": "room-39-midtown",
         "name": "Room 39",
         "address": "1719 W 39th St, Kansas City, MO",
         "city": "Midtown",
@@ -449,6 +481,7 @@
     },
     {
         "id": "v33",
+        "slug": "goat-rabbit-midtown",
         "name": "Goat & Rabbit",
         "address": "1804 W 39th St, Kansas City, MO",
         "city": "Midtown",
@@ -463,6 +496,7 @@
     },
     {
         "id": "v34",
+        "slug": "rye-plaza-country-club-plaza",
         "name": "Rye Plaza",
         "address": "4646 J.C. Nichols Pkwy, Kansas City, MO",
         "city": "Country Club Plaza",
@@ -477,6 +511,7 @@
     },
     {
         "id": "v35",
+        "slug": "stock-hill-country-club-plaza",
         "name": "Stock Hill",
         "address": "4800 Main St, Kansas City, MO",
         "city": "Country Club Plaza",
@@ -491,6 +526,7 @@
     },
     {
         "id": "v36",
+        "slug": "jax-fish-house-oyster-bar-country-club-plaza",
         "name": "Jax Fish House & Oyster Bar",
         "address": "4814 Roanoke Pkwy, Kansas City, MO",
         "city": "Country Club Plaza",
@@ -505,6 +541,7 @@
     },
     {
         "id": "v37",
+        "slug": "mccormick-schmick-s-country-club-plaza",
         "name": "McCormick & Schmick's",
         "address": "448 Ward Pkwy, Kansas City, MO",
         "city": "Country Club Plaza",
@@ -519,6 +556,7 @@
     },
     {
         "id": "v38",
+        "slug": "prime-social-rooftop-country-club-plaza",
         "name": "Prime Social Rooftop",
         "address": "4622 Pennsylvania Ave, 16th Floor, Kansas City, MO",
         "city": "Country Club Plaza",
@@ -533,6 +571,7 @@
     },
     {
         "id": "v39",
+        "slug": "avenues-bistro-on-63rd-brookside",
         "name": "Avenues Bistro on 63rd",
         "address": "338 W 63rd St, Kansas City, MO",
         "city": "Brookside",
@@ -547,6 +586,7 @@
     },
     {
         "id": "v40",
+        "slug": "the-brooksider-sports-bar-grill-brookside",
         "name": "The Brooksider Sports Bar & Grill",
         "address": "6330 Brookside Plaza, Kansas City, MO",
         "city": "Brookside",
@@ -561,6 +601,7 @@
     },
     {
         "id": "v41",
+        "slug": "brookside-barrio-brookside",
         "name": "Brookside Barrio",
         "address": "6227 Brookside Plaza, Kansas City, MO",
         "city": "Brookside",
@@ -575,6 +616,7 @@
     },
     {
         "id": "v42",
+        "slug": "social-waldo-waldo",
         "name": "Social Waldo",
         "address": "7425 Broadway St, Kansas City, MO",
         "city": "Waldo",
@@ -589,6 +631,7 @@
     },
     {
         "id": "v43",
+        "slug": "waldo-thai-place-waldo",
         "name": "Waldo Thai Place",
         "address": "8431 Wornall Rd, Kansas City, MO",
         "city": "Waldo",
@@ -603,6 +646,7 @@
     },
     {
         "id": "v44",
+        "slug": "boru-asian-eatery-waldo",
         "name": "Boru Asian Eatery",
         "address": "520 W 75th St, Kansas City, MO",
         "city": "Waldo",
@@ -617,6 +661,7 @@
     },
     {
         "id": "v45",
+        "slug": "south-of-summit-taqueria-tequila-waldo",
         "name": "South of Summit Taqueria & Tequila",
         "address": "516 W 75th St, Kansas City, MO",
         "city": "Waldo",
@@ -631,6 +676,7 @@
     },
     {
         "id": "v46",
+        "slug": "voltaire-west-bottoms",
         "name": "Voltaire",
         "address": "1617 Genessee St, Kansas City, MO",
         "city": "West Bottoms",
@@ -645,6 +691,7 @@
     },
     {
         "id": "v47",
+        "slug": "the-campground-west-bottoms",
         "name": "The Campground",
         "address": "1531 Genessee St, Kansas City, MO",
         "city": "West Bottoms",
@@ -659,6 +706,7 @@
     },
     {
         "id": "v48",
+        "slug": "fuego-cantina-and-events-west-bottoms",
         "name": "Fuego Cantina and Events",
         "address": "1715 Mulberry St, Kansas City, MO",
         "city": "West Bottoms",
@@ -673,6 +721,7 @@
     },
     {
         "id": "v49",
+        "slug": "west-bottoms-whiskey-co-west-bottoms",
         "name": "West Bottoms Whiskey Co.",
         "address": "1331 Union Ave, Kansas City, MO",
         "city": "West Bottoms",
@@ -687,6 +736,7 @@
     },
     {
         "id": "v50",
+        "slug": "the-ship-west-bottoms",
         "name": "The Ship",
         "address": "1221 Union Ave, Kansas City, MO",
         "city": "West Bottoms",
@@ -701,6 +751,7 @@
     },
     {
         "id": "v51",
+        "slug": "konrad-s-kitchen-and-tap-house-lee-s-summit",
         "name": "Konrad's Kitchen and Tap House",
         "address": "302 SW Main St, Lee's Summit, MO 64063",
         "city": "Lee's Summit",
@@ -715,6 +766,7 @@
     },
     {
         "id": "v52",
+        "slug": "johnny-s-tavern-lee-s-summit-lee-s-summit",
         "name": "Johnny's Tavern (Lee's Summit)",
         "address": "1660 SE Blue Pkwy, Lee's Summit, MO 64063",
         "city": "Lee's Summit",
@@ -729,6 +781,7 @@
     },
     {
         "id": "v53",
+        "slug": "54th-street-grill-bar-lee-s-summit-lee-s-summit",
         "name": "54th Street Grill & Bar (Lee's Summit)",
         "address": "815 SE 3rd St, Lee's Summit, MO 64063",
         "city": "Lee's Summit",
@@ -743,6 +796,7 @@
     },
     {
         "id": "v54",
+        "slug": "houlihan-s-restaurant-bar-lee-s-summit-lee-s-summit",
         "name": "Houlihan's Restaurant & Bar (Lee's Summit)",
         "address": "625 NW Murray Rd, Lee's Summit, MO 64081",
         "city": "Lee's Summit",
@@ -757,6 +811,7 @@
     },
     {
         "id": "v55",
+        "slug": "stuey-mcbrew-s-tavern-tables-lee-s-summit",
         "name": "Stuey McBrew's Tavern & Tables",
         "address": "321 SE Main St, Lee's Summit, MO 64063",
         "city": "Lee's Summit",
@@ -771,6 +826,7 @@
     },
     {
         "id": "v56",
+        "slug": "side-pockets-lee-s-summit",
         "name": "Side Pockets",
         "address": "224 NW Oldham Pkwy, Lee's Summit, MO 64081",
         "city": "Lee's Summit",
@@ -785,6 +841,7 @@
     },
     {
         "id": "v57",
+        "slug": "martin-city-brewing-co-lee-s-summit-lee-s-summit",
         "name": "Martin City Brewing Co. (Lee's Summit)",
         "address": "354 SW Blue Pkwy, Lee's Summit, MO 64063",
         "city": "Lee's Summit",
@@ -799,6 +856,7 @@
     },
     {
         "id": "v58",
+        "slug": "54th-street-bar-and-grill-blue-springs-blue-springs",
         "name": "54th Street Bar and Grill (Blue Springs)",
         "address": "1307 SW 7 Hwy, Blue Springs, MO 64014",
         "city": "Blue Springs",
@@ -813,6 +871,7 @@
     },
     {
         "id": "v59",
+        "slug": "clancy-s-caf-pub-blue-springs",
         "name": "Clancy's Café & Pub",
         "address": "800 NW Outer Rd, Blue Springs, MO 64015",
         "city": "Blue Springs",
@@ -827,6 +886,7 @@
     },
     {
         "id": "v60",
+        "slug": "minsky-s-pizza-blue-springs-blue-springs",
         "name": "Minsky's Pizza (Blue Springs)",
         "address": "2201 NW 7 Hwy, Blue Springs, MO 64015",
         "city": "Blue Springs",
@@ -841,6 +901,7 @@
     },
     {
         "id": "v61",
+        "slug": "rancho-grande-cantina-blue-springs",
         "name": "Rancho Grande Cantina",
         "address": "2201 NW 7 Hwy, Blue Springs, MO 64015",
         "city": "Blue Springs",
@@ -855,6 +916,7 @@
     },
     {
         "id": "v62",
+        "slug": "sinclair-s-restaurant-blue-springs",
         "name": "Sinclair's Restaurant",
         "address": "1402 NW Hwy 7, Blue Springs, MO 64014",
         "city": "Blue Springs",
@@ -869,6 +931,7 @@
     },
     {
         "id": "v63",
+        "slug": "buckets-bar-and-grill-blue-springs",
         "name": "Buckets Bar and Grill",
         "address": "1331 SW US Hwy 40, Blue Springs, MO 64015",
         "city": "Blue Springs",
@@ -883,6 +946,7 @@
     },
     {
         "id": "v64",
+        "slug": "johnny-s-tavern-blue-springs-blue-springs",
         "name": "Johnny's Tavern (Blue Springs)",
         "address": "1175 S 7 Hwy, Blue Springs, MO 64014",
         "city": "Blue Springs",
@@ -897,6 +961,7 @@
     },
     {
         "id": "v65",
+        "slug": "54th-street-bar-and-grill-independence-independence",
         "name": "54th Street Bar and Grill (Independence)",
         "address": "18700 E 38th Terr, Independence, MO 64057",
         "city": "Independence",
@@ -911,6 +976,7 @@
     },
     {
         "id": "v66",
+        "slug": "cafe-verona-independence",
         "name": "Cafe Verona",
         "address": "206 W Lexington Ave, Independence, MO 64050",
         "city": "Independence",
@@ -925,6 +991,7 @@
     },
     {
         "id": "v67",
+        "slug": "the-courthouse-exchange-independence",
         "name": "The Courthouse Exchange",
         "address": "113 W Lexington Ave, Independence, MO 64050",
         "city": "Independence",
@@ -939,6 +1006,7 @@
     },
     {
         "id": "v68",
+        "slug": "erin-s-pub-independence",
         "name": "Erin's Pub",
         "address": "3010 S 291 Hwy Ste G, Independence, MO 64057",
         "city": "Independence",
@@ -953,6 +1021,7 @@
     },
     {
         "id": "v69",
+        "slug": "hereford-house-independence-independence",
         "name": "Hereford House (Independence)",
         "address": "19721 E Jackson Dr, Independence, MO 64057",
         "city": "Independence",
@@ -967,6 +1036,7 @@
     },
     {
         "id": "v70",
+        "slug": "saint-s-pub-independence",
         "name": "Saint's Pub",
         "address": "20220 E Jackson Dr, Independence, MO 64057",
         "city": "Independence",
@@ -981,6 +1051,7 @@
     },
     {
         "id": "v71",
+        "slug": "the-salty-iguana-independence",
         "name": "The Salty Iguana",
         "address": "17717 E US 40 Hwy, Independence, MO 64055",
         "city": "Independence",
@@ -995,6 +1066,7 @@
     },
     {
         "id": "v72",
+        "slug": "shots-sports-bar-independence",
         "name": "Shots Sports Bar",
         "address": "11703 E 23rd St, Independence, MO 64052",
         "city": "Independence",
@@ -1009,6 +1081,7 @@
     },
     {
         "id": "v73",
+        "slug": "eclipse-bar-grill-raytown",
         "name": "Eclipse Bar & Grill",
         "address": "6512 Raytown Rd, Raytown, MO 64133",
         "city": "Raytown",
@@ -1023,6 +1096,7 @@
     },
     {
         "id": "v74",
+        "slug": "transparent-brewing-co-grandview",
         "name": "Transparent Brewing Co.",
         "address": "14501 White Ave, Grandview, MO 64030",
         "city": "Grandview",
@@ -1037,6 +1111,7 @@
     },
     {
         "id": "v75",
+        "slug": "red-bridge-barrio-martin-city",
         "name": "Red Bridge Barrio",
         "address": "11118 Holmes Rd, Kansas City, MO 64131",
         "city": "Martin City",
@@ -1051,6 +1126,7 @@
     },
     {
         "id": "v76",
+        "slug": "martin-city-brewing-co-135th-st-martin-city",
         "name": "Martin City Brewing Co. (135th St)",
         "address": "410 E 135th St, Kansas City, MO 64145",
         "city": "Martin City",
@@ -1065,6 +1141,7 @@
     },
     {
         "id": "v77",
+        "slug": "le-fou-frog-columbus-park",
         "name": "Le Fou Frog",
         "address": "400 E 5th St, Kansas City, MO 64106",
         "city": "Columbus Park",
@@ -1079,6 +1156,7 @@
     },
     {
         "id": "v78",
+        "slug": "garozzo-s-ristorante-columbus-park",
         "name": "Garozzo's Ristorante",
         "address": "526 Harrison St, Kansas City, MO 64106",
         "city": "Columbus Park",
@@ -1093,6 +1171,7 @@
     },
     {
         "id": "v79",
+        "slug": "dear-donna-columbus-park",
         "name": "Dear Donna",
         "address": "549 Gillis St, Kansas City, MO 64106",
         "city": "Columbus Park",
@@ -1107,6 +1186,7 @@
     },
     {
         "id": "v80",
+        "slug": "the-blue-room-indigo-hour-18th-vine",
         "name": "The Blue Room - Indigo Hour",
         "address": "1600 E 18th St, Kansas City, MO 64108",
         "city": "18th & Vine",
@@ -1121,6 +1201,7 @@
     },
     {
         "id": "v81",
+        "slug": "the-corner-bar-grill-18th-vine",
         "name": "The Corner Bar & Grill",
         "address": "1601 E 18th St, Kansas City, MO 64108",
         "city": "18th & Vine",
@@ -1135,6 +1216,7 @@
     },
     {
         "id": "v82",
+        "slug": "union-on-the-hill-union-hill",
         "name": "Union on the Hill",
         "address": "2976 Gillham Rd, Kansas City, MO 64108",
         "city": "Union Hill",
@@ -1149,6 +1231,7 @@
     },
     {
         "id": "v83",
+        "slug": "brick-house-union-hill",
         "name": "Brick House",
         "address": "400 E 31st St, Kansas City, MO 64108",
         "city": "Union Hill",
@@ -1163,6 +1246,7 @@
     },
     {
         "id": "v84",
+        "slug": "elixir-at-the-kansas-city-museum-northeast-kc",
         "name": "Elixir at the Kansas City Museum",
         "address": "3218 Gladstone Blvd, Kansas City, MO 64123",
         "city": "Northeast KC",
@@ -1177,6 +1261,7 @@
     },
     {
         "id": "v85",
+        "slug": "tupelo-honey-lenexa",
         "name": "Tupelo Honey",
         "address": "16720 City Center Drive, Lenexa, KS 66219",
         "city": "Lenexa",
@@ -1191,6 +1276,7 @@
     },
     {
         "id": "v86",
+        "slug": "burg-barrel-lenexa",
         "name": "Burg & Barrel",
         "address": "8725 Bourgade St, Lenexa, KS 66219",
         "city": "Lenexa",
@@ -1205,6 +1291,7 @@
     },
     {
         "id": "v87",
+        "slug": "red-door-woodfired-grill-lenexa-lenexa",
         "name": "Red Door Woodfired Grill (Lenexa)",
         "address": "15918 W 88th St, Lenexa, KS 66219",
         "city": "Lenexa",
@@ -1219,6 +1306,7 @@
     },
     {
         "id": "v88",
+        "slug": "brewbakers-bar-grill-lenexa",
         "name": "Brewbakers Bar & Grill",
         "address": "9482 Renner Blvd, Lenexa, KS 66219",
         "city": "Lenexa",
@@ -1233,6 +1321,7 @@
     },
     {
         "id": "v89",
+        "slug": "meddys-lenexa-lenexa",
         "name": "Meddys (Lenexa)",
         "address": "8810 Maurer Rd, Lenexa, KS 66219",
         "city": "Lenexa",
@@ -1247,6 +1336,7 @@
     },
     {
         "id": "v90",
+        "slug": "martin-city-brewing-co-lenexa-lenexa",
         "name": "Martin City Brewing Co. (Lenexa)",
         "address": "8802 Renner Blvd, Lenexa, KS 66219",
         "city": "Lenexa",
@@ -1261,6 +1351,7 @@
     },
     {
         "id": "v91",
+        "slug": "sierra-grill-lenexa",
         "name": "Sierra Grill",
         "address": "8659 Penrose Ln, Lenexa, KS 66219",
         "city": "Lenexa",
@@ -1275,6 +1366,7 @@
     },
     {
         "id": "v92",
+        "slug": "twin-peaks-olathe",
         "name": "Twin Peaks",
         "address": "14805 W 119th St, Olathe, KS 66062",
         "city": "Olathe",
@@ -1289,6 +1381,7 @@
     },
     {
         "id": "v93",
+        "slug": "54th-street-grill-bar-olathe-olathe",
         "name": "54th Street Grill & Bar (Olathe)",
         "address": "14750 S Harrison St, Olathe, KS 66061",
         "city": "Olathe",
@@ -1303,6 +1396,7 @@
     },
     {
         "id": "v94",
+        "slug": "third-street-social-olathe",
         "name": "Third Street Social",
         "address": "135 S Kansas Ave, Olathe, KS 66061",
         "city": "Olathe",
@@ -1317,6 +1411,7 @@
     },
     {
         "id": "v95",
+        "slug": "the-bar-olathe-olathe",
         "name": "The Bar (Olathe)",
         "address": "14871 W 151st St, Olathe, KS 66062",
         "city": "Olathe",
@@ -1331,6 +1426,7 @@
     },
     {
         "id": "v96",
+        "slug": "apogee-coffee-draft-olathe",
         "name": "Apogee Coffee & Draft",
         "address": "670 N Central St, Olathe, KS 66061",
         "city": "Olathe",
@@ -1345,6 +1441,7 @@
     },
     {
         "id": "v97",
+        "slug": "the-peanut-olathe",
         "name": "The Peanut",
         "address": "1731 S Mur-Len Rd, Olathe, KS 66062",
         "city": "Olathe",
@@ -1359,6 +1456,7 @@
     },
     {
         "id": "v98",
+        "slug": "austin-s-bar-grill-olathe-olathe",
         "name": "Austin's Bar & Grill (Olathe)",
         "address": "2103 E 151st St, Olathe, KS 66062",
         "city": "Olathe",
@@ -1373,6 +1471,7 @@
     },
     {
         "id": "v99",
+        "slug": "johnny-s-tavern-shawnee-shawnee",
         "name": "Johnny's Tavern (Shawnee)",
         "address": "13131 Shawnee Mission Pkwy, Shawnee, KS 66216",
         "city": "Shawnee",
@@ -1387,6 +1486,7 @@
     },
     {
         "id": "v100",
+        "slug": "bar-west-shawnee",
         "name": "Bar West",
         "address": "7174 Renner Rd, Shawnee, KS 66217",
         "city": "Shawnee",
@@ -1401,6 +1501,7 @@
     },
     {
         "id": "v101",
+        "slug": "district-pour-house-kitchen-shawnee",
         "name": "District Pour House + Kitchen",
         "address": "11101 Johnson Dr, Shawnee, KS 66203",
         "city": "Shawnee",
@@ -1415,6 +1516,7 @@
     },
     {
         "id": "v102",
+        "slug": "knub-s-pub-shawnee",
         "name": "Knub's Pub",
         "address": "5386 Roberts St, Shawnee, KS 66226",
         "city": "Shawnee",
@@ -1429,6 +1531,7 @@
     },
     {
         "id": "v103",
+        "slug": "roni-s-pub-kitchen-shawnee",
         "name": "Roni's Pub + Kitchen",
         "address": "5354 Roberts St, Shawnee, KS 66226",
         "city": "Shawnee",
@@ -1443,6 +1546,7 @@
     },
     {
         "id": "v104",
+        "slug": "30hop-merriam",
         "name": "30hop",
         "address": "8715 Shawnee Mission Pkwy, Merriam, KS 66202",
         "city": "Merriam",
@@ -1457,6 +1561,7 @@
     },
     {
         "id": "v105",
+        "slug": "chili-s-grill-bar-merriam-merriam",
         "name": "Chili's Grill & Bar (Merriam)",
         "address": "5880 Antioch Rd, Merriam, KS 66202",
         "city": "Merriam",
@@ -1471,6 +1576,7 @@
     },
     {
         "id": "v106",
+        "slug": "austin-s-bar-grill-gardner-gardner",
         "name": "Austin's Bar & Grill (Gardner)",
         "address": "245 N Moonlight Rd, Gardner, KS 66030",
         "city": "Gardner",
@@ -1485,6 +1591,7 @@
     },
     {
         "id": "v107",
+        "slug": "yard-house-village-west",
         "name": "Yard House",
         "address": "1863 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1499,6 +1606,7 @@
     },
     {
         "id": "v108",
+        "slug": "kpot-korean-bbq-hot-pot-village-west",
         "name": "KPOT Korean BBQ & Hot Pot",
         "address": "1705 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1513,6 +1621,7 @@
     },
     {
         "id": "v109",
+        "slug": "granite-city-food-brewery-village-west",
         "name": "Granite City Food & Brewery",
         "address": "1701 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1527,6 +1636,7 @@
     },
     {
         "id": "v110",
+        "slug": "dave-buster-s-village-west",
         "name": "Dave & Buster's",
         "address": "1843 Village West Pkwy, Suite 201, Kansas City, KS 66111",
         "city": "Village West",
@@ -1541,6 +1651,7 @@
     },
     {
         "id": "v111",
+        "slug": "hooters-village-west",
         "name": "Hooters",
         "address": "1712 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1555,6 +1666,7 @@
     },
     {
         "id": "v112",
+        "slug": "chili-s-grill-bar-village-west-village-west",
         "name": "Chili's Grill & Bar (Village West)",
         "address": "1710 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1569,6 +1681,7 @@
     },
     {
         "id": "v113",
+        "slug": "longhorn-steakhouse-village-west",
         "name": "LongHorn Steakhouse",
         "address": "1708 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1583,6 +1696,7 @@
     },
     {
         "id": "v114",
+        "slug": "outback-steakhouse-village-west",
         "name": "Outback Steakhouse",
         "address": "Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1597,6 +1711,7 @@
     },
     {
         "id": "v115",
+        "slug": "jazz-a-louisiana-kitchen-village-west",
         "name": "Jazz, A Louisiana Kitchen",
         "address": "1859 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1611,6 +1726,7 @@
     },
     {
         "id": "v116",
+        "slug": "stix-village-west",
         "name": "Stix",
         "address": "1847 Village West Pkwy, Kansas City, KS 66111",
         "city": "Village West",
@@ -1625,6 +1741,7 @@
     },
     {
         "id": "v117",
+        "slug": "403-club-strawberry-hill",
         "name": "403 Club",
         "address": "614 Reynolds Ave, Kansas City, KS 66101",
         "city": "Strawberry Hill",
@@ -1639,6 +1756,7 @@
     },
     {
         "id": "v118",
+        "slug": "fat-matt-s-vortex-strawberry-hill",
         "name": "Fat Matt's Vortex",
         "address": "411 N 6th St, Kansas City, KS 66101",
         "city": "Strawberry Hill",
@@ -1653,6 +1771,7 @@
     },
     {
         "id": "v119",
+        "slug": "hillsiders-strawberry-hill",
         "name": "Hillsiders",
         "address": "403 N 5th St, Kansas City, KS 66101",
         "city": "Strawberry Hill",
@@ -1667,6 +1786,7 @@
     },
     {
         "id": "v120",
+        "slug": "blue-sushi-sake-grill-westwood",
         "name": "Blue Sushi Sake Grill",
         "address": "4705 Rainbow Blvd, Westwood, KS 66205",
         "city": "Westwood",
@@ -1681,6 +1801,7 @@
     },
     {
         "id": "v121",
+        "slug": "vintner-westwood",
         "name": "Vintner",
         "address": "4711 Rainbow Blvd, Westwood, KS 66205",
         "city": "Westwood",
@@ -1695,6 +1816,7 @@
     },
     {
         "id": "v122",
+        "slug": "unforked-westwood-westwood",
         "name": "Unforked (Westwood)",
         "address": "4719 Rainbow Blvd, Westwood, KS 66205",
         "city": "Westwood",
@@ -1709,6 +1831,7 @@
     },
     {
         "id": "v123",
+        "slug": "conroy-s-public-house-westwood",
         "name": "Conroy's Public House",
         "address": "4730 Rainbow Blvd, Westwood, KS 66205",
         "city": "Westwood",
@@ -1723,6 +1846,7 @@
     },
     {
         "id": "v124",
+        "slug": "jefferson-s-north-kansas-city",
         "name": "Jefferson's",
         "address": "300 Armour Rd, North Kansas City, MO 64116",
         "city": "North Kansas City",
@@ -1737,6 +1861,7 @@
     },
     {
         "id": "v125",
+        "slug": "iron-district-north-kansas-city",
         "name": "Iron District",
         "address": "1599 Iron St, North Kansas City, MO 64116",
         "city": "North Kansas City",
@@ -1751,6 +1876,7 @@
     },
     {
         "id": "v126",
+        "slug": "chicken-n-pickle-north-kansas-city",
         "name": "Chicken N Pickle",
         "address": "1761 Burlington St, North Kansas City, MO 64116",
         "city": "North Kansas City",
@@ -1765,6 +1891,7 @@
     },
     {
         "id": "v127",
+        "slug": "sail-away-wine-north-kansas-city",
         "name": "Sail Away Wine",
         "address": "309 Armour Rd, North Kansas City, MO 64116",
         "city": "North Kansas City",
@@ -1779,6 +1906,7 @@
     },
     {
         "id": "v128",
+        "slug": "christine-s-firehouse-on-20th-bar-grill-north-kansas-city",
         "name": "Christine's Firehouse on 20th Bar & Grill",
         "address": "2012 Swift St, North Kansas City, MO 64116",
         "city": "North Kansas City",
@@ -1793,6 +1921,7 @@
     },
     {
         "id": "v129",
+        "slug": "54th-street-grill-bar-zona-rosa-zona-rosa",
         "name": "54th Street Grill & Bar (Zona Rosa)",
         "address": "7200 NW 86th Terrace, Kansas City, MO 64153",
         "city": "Zona Rosa",
@@ -1807,6 +1936,7 @@
     },
     {
         "id": "v130",
+        "slug": "bravo-italian-kitchen-zona-rosa-zona-rosa",
         "name": "Bravo! Italian Kitchen (Zona Rosa)",
         "address": "7301 NW 87th St, Kansas City, MO 64153",
         "city": "Zona Rosa",
@@ -1821,6 +1951,7 @@
     },
     {
         "id": "v131",
+        "slug": "cooper-s-hawk-winery-restaurant-zona-rosa",
         "name": "Cooper's Hawk Winery & Restaurant",
         "address": "1900 NW Tiffany Springs Rd, Kansas City, MO 64154",
         "city": "Zona Rosa",
@@ -1835,6 +1966,7 @@
     },
     {
         "id": "v132",
+        "slug": "streetcar-grille-tavern-gladstone",
         "name": "Streetcar Grille & Tavern",
         "address": "8340 N Broadway Ave, Kansas City, MO 64118",
         "city": "Gladstone",
@@ -1849,6 +1981,7 @@
     },
     {
         "id": "v133",
+        "slug": "the-thirsty-gnome-gladstone",
         "name": "The Thirsty Gnome",
         "address": "5044 NE Parvin Rd, Kansas City, MO 64117",
         "city": "Gladstone",
@@ -1863,6 +1996,7 @@
     },
     {
         "id": "v134",
+        "slug": "summit-grill-gladstone",
         "name": "Summit Grill",
         "address": "501 NE 70th St, Gladstone, MO 64118",
         "city": "Gladstone",
@@ -1877,6 +2011,7 @@
     },
     {
         "id": "v135",
+        "slug": "stone-canyon-pizza-gladstone-gladstone",
         "name": "Stone Canyon Pizza (Gladstone)",
         "address": "504 NE 70th St, Gladstone, MO 64118",
         "city": "Gladstone",
@@ -1891,6 +2026,7 @@
     },
     {
         "id": "v136",
+        "slug": "54th-street-grill-bar-liberty-liberty",
         "name": "54th Street Grill & Bar (Liberty)",
         "address": "9251 NE Barry Rd, Kansas City, MO 64157",
         "city": "Liberty",
@@ -1905,6 +2041,7 @@
     },
     {
         "id": "v137",
+        "slug": "johnnie-s-jazz-bar-grille-liberty",
         "name": "Johnnie's Jazz Bar & Grille",
         "address": "1903 Victory Dr, Liberty, MO 64068",
         "city": "Liberty",
@@ -1919,6 +2056,7 @@
     },
     {
         "id": "v138",
+        "slug": "johnny-s-tavern-parkville-parkville",
         "name": "Johnny's Tavern (Parkville)",
         "address": "15249 NW Brinkmeyer Rd, Parkville, MO 64153",
         "city": "Parkville",
@@ -1933,6 +2071,7 @@
     },
     {
         "id": "v139",
+        "slug": "whiskey-river-pizza-pub-parkville",
         "name": "Whiskey River Pizza & Pub",
         "address": "15425 Old Town Dr, Suite 116, Parkville, MO 64152",
         "city": "Parkville",
@@ -1947,6 +2086,7 @@
     },
     {
         "id": "v140",
+        "slug": "acre-parkville",
         "name": "Acre",
         "address": "6325 Lewis St, Suite 119, Parkville, MO 64152",
         "city": "Parkville",
@@ -1961,6 +2101,7 @@
     },
     {
         "id": "v141",
+        "slug": "nick-jake-s-parkville-parkville",
         "name": "Nick & Jake's (Parkville)",
         "address": "6325 Lewis St, Suite 110, Parkville, MO 64152",
         "city": "Parkville",
@@ -1975,6 +2116,7 @@
     },
     {
         "id": "v142",
+        "slug": "char-bar-parkville-parkville",
         "name": "Char Bar (Parkville)",
         "address": "15348 Old Town Dr, Parkville, MO 64152",
         "city": "Parkville",
@@ -1989,6 +2131,7 @@
     },
     {
         "id": "v143",
+        "slug": "stone-canyon-pizza-parkville-parkville",
         "name": "Stone Canyon Pizza (Parkville)",
         "address": "15 Main St, Parkville, MO 64152",
         "city": "Parkville",
@@ -2003,6 +2146,7 @@
     },
     {
         "id": "v144",
+        "slug": "lulu-s-thai-noodle-shop-overland-park",
         "name": "Lulu's Thai Noodle Shop",
         "address": "7921 Santa Fe Dr, Overland Park, KS 66204",
         "city": "Overland Park",
@@ -2017,6 +2161,7 @@
     },
     {
         "id": "v145",
+        "slug": "strang-hall-overland-park",
         "name": "Strang Hall",
         "address": "7313 W 80th St, Overland Park, KS 66204",
         "city": "Overland Park",
@@ -2031,6 +2176,7 @@
     },
     {
         "id": "v146",
+        "slug": "tallboyz-garage-overland-park",
         "name": "Tallboyz Garage",
         "address": "7925 Marty St, Overland Park, KS 66204",
         "city": "Overland Park",
@@ -2045,6 +2191,7 @@
     },
     {
         "id": "v147",
+        "slug": "atomic-cowboy-overland-park",
         "name": "Atomic Cowboy",
         "address": "7101 W 80th St, Overland Park, KS 66204",
         "city": "Overland Park",
@@ -2059,6 +2206,7 @@
     },
     {
         "id": "v148",
+        "slug": "buffalo-state-pizza-co-overland-park",
         "name": "Buffalo State Pizza Co.",
         "address": "Downtown Overland Park, KS",
         "city": "Overland Park",
@@ -2073,6 +2221,7 @@
     },
     {
         "id": "v149",
+        "slug": "tap-ins-at-the-greenhouse-overland-park",
         "name": "Tap Ins at the Greenhouse",
         "address": "9571 Metcalf Ave, Overland Park, KS 66212",
         "city": "Overland Park",
@@ -2087,6 +2236,7 @@
     },
     {
         "id": "v150",
+        "slug": "don-chuy-s-fresh-mex-cantina-overland-park",
         "name": "Don-Chuy's Fresh-Mex & Cantina",
         "address": "Downtown Overland Park, KS",
         "city": "Overland Park",
@@ -2101,6 +2251,7 @@
     },
     {
         "id": "v151",
+        "slug": "louie-s-wine-dive-kitchen-119-overland-park",
         "name": "Louie's Wine Dive & Kitchen 119",
         "address": "6701 W 119th St, Overland Park, KS 66209",
         "city": "Overland Park",
@@ -2115,6 +2266,7 @@
     },
     {
         "id": "v152",
+        "slug": "barley-s-kitchen-tap-overland-park",
         "name": "Barley's Kitchen + Tap",
         "address": "11924 W 119th St, Overland Park, KS 66213",
         "city": "Overland Park",
@@ -2129,6 +2281,7 @@
     },
     {
         "id": "v153",
+        "slug": "martin-city-brewing-co-overland-park-overland-park",
         "name": "Martin City Brewing Co. (Overland Park)",
         "address": "4000 Indian Creek Pkwy, Overland Park, KS 66206",
         "city": "Overland Park",
@@ -2143,6 +2296,7 @@
     },
     {
         "id": "v154",
+        "slug": "garozzo-s-overland-park",
         "name": "Garozzo's",
         "address": "9950 College Blvd, Overland Park, KS 66210",
         "city": "Overland Park",
@@ -2157,6 +2311,7 @@
     },
     {
         "id": "v155",
+        "slug": "j-gilbert-s-wood-fired-steaks-seafood-overland-park",
         "name": "J. Gilbert's Wood-Fired Steaks & Seafood",
         "address": "8901 Metcalf Ave, Overland Park, KS 66212",
         "city": "Overland Park",
@@ -2171,6 +2326,7 @@
     },
     {
         "id": "v156",
+        "slug": "club-27-restaurant-overland-park",
         "name": "Club 27 Restaurant",
         "address": "12501 Quivira Rd, Overland Park, KS 66213",
         "city": "Overland Park",
@@ -2185,6 +2341,7 @@
     },
     {
         "id": "v157",
+        "slug": "k-macho-s-mexican-restaurant-cantina-overland-park",
         "name": "K-Macho's Mexican Restaurant & Cantina",
         "address": "Overland Park, KS",
         "city": "Overland Park",
@@ -2199,6 +2356,7 @@
     },
     {
         "id": "v158",
+        "slug": "veritas-whiskey-wine-overland-park",
         "name": "Veritas Whiskey & Wine",
         "address": "5621 W 135th St Ste 2620, Overland Park, KS 66224",
         "city": "Overland Park",
@@ -2213,6 +2371,7 @@
     },
     {
         "id": "v159",
+        "slug": "the-brass-onion-overland-park",
         "name": "The Brass Onion",
         "address": "5501 W 135th St, Overland Park, KS 66223",
         "city": "Overland Park",
@@ -2227,6 +2386,7 @@
     },
     {
         "id": "v160",
+        "slug": "yaya-s-euro-bistro-overland-park",
         "name": "YaYa's Euro Bistro",
         "address": "7021 W 135th St, Overland Park, KS 66223",
         "city": "Overland Park",
@@ -2241,6 +2401,7 @@
     },
     {
         "id": "v161",
+        "slug": "redrock-canyon-grill-overland-park",
         "name": "Redrock Canyon Grill",
         "address": "13505 Metcalf Ave, Overland Park, KS 66213",
         "city": "Overland Park",
@@ -2255,6 +2416,7 @@
     },
     {
         "id": "v162",
+        "slug": "cactus-grill-overland-park",
         "name": "Cactus Grill",
         "address": "7841 W 159th St, Overland Park, KS 66223",
         "city": "Overland Park",
@@ -2269,6 +2431,7 @@
     },
     {
         "id": "v163",
+        "slug": "of-course-kitchen-co-overland-park",
         "name": "Of Course Kitchen & Co.",
         "address": "Bluhawk, Overland Park, KS 66223",
         "city": "Overland Park",
@@ -2283,6 +2446,7 @@
     },
     {
         "id": "v164",
+        "slug": "gyu-kaku-japanese-bbq-overland-park",
         "name": "Gyu-Kaku Japanese BBQ",
         "address": "7865 W 159th St, Overland Park, KS 66223",
         "city": "Overland Park",
@@ -2297,6 +2461,7 @@
     },
     {
         "id": "v165",
+        "slug": "unforked-overland-park-overland-park",
         "name": "Unforked (Overland Park)",
         "address": "7337 W 119th St, Overland Park, KS 66213",
         "city": "Overland Park",
@@ -2311,6 +2476,7 @@
     },
     {
         "id": "v166",
+        "slug": "johnny-s-tavern-overland-park-overland-park",
         "name": "Johnny's Tavern (Overland Park)",
         "address": "6765 W 119th St, Overland Park, KS 66209",
         "city": "Overland Park",
@@ -2325,6 +2491,7 @@
     },
     {
         "id": "v167",
+        "slug": "nick-and-jake-s-overland-park-overland-park",
         "name": "Nick and Jake's (Overland Park)",
         "address": "6830 W 135th St, Overland Park, KS 66223",
         "city": "Overland Park",
@@ -2339,6 +2506,7 @@
     },
     {
         "id": "v168",
+        "slug": "houlihan-s-restaurant-bar-leawood",
         "name": "Houlihan's Restaurant & Bar",
         "address": "4900 W 119th St, Leawood, KS 66209",
         "city": "Leawood",
@@ -2353,6 +2521,7 @@
     },
     {
         "id": "v169",
+        "slug": "north-italia-leawood",
         "name": "North Italia",
         "address": "4579 W 119th St, Leawood, KS 66209",
         "city": "Leawood",
@@ -2367,6 +2536,7 @@
     },
     {
         "id": "v170",
+        "slug": "bristol-seafood-grill-leawood-leawood",
         "name": "Bristol Seafood Grill (Leawood)",
         "address": "4740 Town Center Plaza, Leawood, KS 66211",
         "city": "Leawood",
@@ -2381,6 +2551,7 @@
     },
     {
         "id": "v171",
+        "slug": "plate-leawood",
         "name": "Plate",
         "address": "11655 Ash St, Park Place, Leawood, KS 66211",
         "city": "Leawood",
@@ -2395,6 +2566,7 @@
     },
     {
         "id": "v172",
+        "slug": "801-chophouse-leawood",
         "name": "801 Chophouse",
         "address": "11616 Ash St, Leawood, KS 66211",
         "city": "Leawood",
@@ -2409,6 +2581,7 @@
     },
     {
         "id": "v173",
+        "slug": "sullivan-s-steakhouse-leawood",
         "name": "Sullivan's Steakhouse",
         "address": "4501 W 119th St, Leawood, KS 66211",
         "city": "Leawood",
@@ -2423,6 +2596,7 @@
     },
     {
         "id": "v174",
+        "slug": "tavern-at-mission-farms-leawood",
         "name": "Tavern at Mission Farms",
         "address": "10681 Mission Rd, Leawood, KS 66206",
         "city": "Leawood",
@@ -2437,6 +2611,7 @@
     },
     {
         "id": "v175",
+        "slug": "red-door-woodfired-grill-leawood-leawood",
         "name": "Red Door Woodfired Grill (Leawood)",
         "address": "8001 W 159th St, Leawood, KS 66223",
         "city": "Leawood",
@@ -2451,6 +2626,7 @@
     },
     {
         "id": "v176",
+        "slug": "ika-grill-sushi-pan-asian-leawood",
         "name": "Ika Grill Sushi & Pan Asian",
         "address": "11725 Roe Ave Ste A, Leawood, KS 66211",
         "city": "Leawood",
@@ -2465,6 +2641,7 @@
     },
     {
         "id": "v177",
+        "slug": "tavern-in-the-village-prairie-village",
         "name": "Tavern in the Village",
         "address": "3901 Prairie Ln, Prairie Village, KS 66208",
         "city": "Prairie Village",
@@ -2479,6 +2656,7 @@
     },
     {
         "id": "v178",
+        "slug": "brgr-kitchen-bar-prairie-village-prairie-village",
         "name": "BRGR Kitchen + Bar (Prairie Village)",
         "address": "4038 W 83rd St, Prairie Village, KS 66208",
         "city": "Prairie Village",
@@ -2493,6 +2671,7 @@
     },
     {
         "id": "v179",
+        "slug": "va-bene-italian-eatery-prairie-village",
         "name": "Va Bene Italian Eatery",
         "address": "8232 Mission Rd, Prairie Village, KS 66208",
         "city": "Prairie Village",
@@ -2507,6 +2686,7 @@
     },
     {
         "id": "v180",
+        "slug": "meddys-prairie-village",
         "name": "Meddys",
         "address": "4105 W 83rd St, Prairie Village, KS 66208",
         "city": "Prairie Village",
@@ -2521,6 +2701,7 @@
     },
     {
         "id": "v181",
+        "slug": "the-bar-mission",
         "name": "The Bar",
         "address": "6101 Johnson Dr, Mission, KS 66202",
         "city": "Mission",
@@ -2535,6 +2716,7 @@
     },
     {
         "id": "v182",
+        "slug": "the-primrose-mission",
         "name": "The Primrose",
         "address": "5622 Johnson Dr, Mission, KS 66202",
         "city": "Mission",

@@ -507,10 +507,16 @@ function openDetail(v) {
       <div class="detail-label">Address</div>
       <div class="detail-value">${escapeHtml(v.address || "—")}</div>
     </div>
-    ${v.source ? `<a class="detail-source" href="${escapeAttr(v.source)}" target="_blank" rel="noopener noreferrer">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
-      View source
-    </a>` : ""}
+    <div style="display: flex; gap: 18px; flex-wrap: wrap;">
+      ${v.slug ? `<a class="detail-source" href="/happy-hour/${escapeAttr(v.slug)}/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3v4a1 1 0 001 1h4"/><path d="M17 21H7a2 2 0 01-2-2V5a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"/></svg>
+        Permalink
+      </a>` : ""}
+      ${v.source ? `<a class="detail-source" href="${escapeAttr(v.source)}" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
+        View source
+      </a>` : ""}
+    </div>
   `;
   document.getElementById("detailClose").addEventListener("click", closeDetail);
   els.detailOverlay.classList.add("open");

@@ -151,6 +151,13 @@ function Format-HoursDisplay($raw) {
   return $d.Trim()
 }
 
+function Slugify($s) {
+  $s = $s.ToLower()
+  $s = [regex]::Replace($s, "[^a-z0-9]+", "-")
+  $s = $s.Trim("-")
+  return $s
+}
+
 function Split-Deals($raw) {
   if (-not $raw) { return @() }
   $parts = $raw -split ';\s*' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" }
@@ -175,6 +182,7 @@ function Json-StrArray($arr) {
 # ---------- main ----------
 $id = 1
 $lines = New-Object System.Collections.Generic.List[string]
+$usedSlugs = New-Object 'System.Collections.Generic.HashSet[string]'
 
 $rawFiles = Get-ChildItem -Path $rawDir -Filter "*.json"
 foreach ($file in $rawFiles) {
@@ -191,8 +199,15 @@ foreach ($file in $rawFiles) {
     $start = [math]::Round($hoursParsed.start, 2)
     $end = [math]::Round($hoursParsed.end, 2)
 
+    $baseSlug = Slugify "$($it.name)-$city"
+    $slug = $baseSlug
+    $n = 2
+    while ($usedSlugs.Contains($slug)) { $slug = "$baseSlug-$n"; $n++ }
+    [void]$usedSlugs.Add($slug)
+
     $obj = "    {`n" +
       "        `"id`": `"v$id`",`n" +
+      "        `"slug`": `"$(Json-Escape $slug)`",`n" +
       "        `"name`": `"$(Json-Escape $it.name)`",`n" +
       "        `"address`": `"$(Json-Escape $it.address)`",`n" +
       "        `"city`": `"$(Json-Escape $city)`",`n" +
