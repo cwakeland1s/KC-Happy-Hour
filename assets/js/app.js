@@ -4,6 +4,10 @@
 
 const DAY_KEYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+// Get a free key at https://web3forms.com (enter your email, they email you a key instantly — no password/account).
+// Paste it below to start receiving signups by email.
+const WEB3FORMS_ACCESS_KEY = "PASTE_YOUR_WEB3FORMS_KEY_HERE";
+
 const state = {
   venues: [],
   filters: {
@@ -57,6 +61,17 @@ function cacheEls() {
   els.detailCard = document.getElementById("detailCard");
   els.themeToggle = document.getElementById("themeToggle");
   els.liveClock = document.getElementById("liveClock");
+
+  els.alertCta = document.getElementById("alertCta");
+  els.signupOverlay = document.getElementById("signupOverlay");
+  els.signupClose = document.getElementById("signupClose");
+  els.signupForm = document.getElementById("signupForm");
+  els.signupEmail = document.getElementById("signupEmail");
+  els.signupPhone = document.getElementById("signupPhone");
+  els.signupCity = document.getElementById("signupCity");
+  els.signupError = document.getElementById("signupError");
+  els.signupSubmit = document.getElementById("signupSubmit");
+  els.signupSuccess = document.getElementById("signupSuccess");
 }
 
 /* ---------------- theme ---------------- */
@@ -153,6 +168,20 @@ function buildFilterPanels() {
     .map(([c, count]) => optionRow(`cuisine-${slug(c)}`, c, count, "cuisine"))
     .join("");
 
+  // ---- Signup city dropdown (same regions/cities as the city filter) ----
+  regions.forEach((region) => {
+    const group = document.createElement("optgroup");
+    group.label = region;
+    const cities = [...byRegion.get(region).keys()].sort((a, b) => a.localeCompare(b));
+    cities.forEach((city) => {
+      const opt = document.createElement("option");
+      opt.value = city;
+      opt.textContent = city;
+      group.appendChild(opt);
+    });
+    els.signupCity.appendChild(group);
+  });
+
   // ---- Day panel ----
   els.dayPanel.innerHTML = DAY_KEYS.map((d) => {
     const count = state.venues.filter((v) => v.days && v.days.includes(d)).length;
@@ -233,8 +262,67 @@ function bindGlobalUI() {
     if (e.target === els.detailOverlay) closeDetail();
   });
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") closeDetail();
+    if (e.key === "Escape") { closeDetail(); closeSignup(); }
   });
+
+  els.alertCta.addEventListener("click", openSignup);
+  els.signupClose.addEventListener("click", closeSignup);
+  els.signupOverlay.addEventListener("click", (e) => {
+    if (e.target === els.signupOverlay) closeSignup();
+  });
+  els.signupForm.addEventListener("submit", submitSignup);
+}
+
+/* ---------------- signup modal ---------------- */
+
+function openSignup() {
+  els.signupOverlay.classList.add("open");
+}
+function closeSignup() {
+  els.signupOverlay.classList.remove("open");
+}
+
+async function submitSignup(e) {
+  e.preventDefault();
+  els.signupError.hidden = true;
+
+  if (WEB3FORMS_ACCESS_KEY === "PASTE_YOUR_WEB3FORMS_KEY_HERE") {
+    els.signupError.textContent = "Signups aren't connected yet — add a Web3Forms access key in assets/js/app.js.";
+    els.signupError.hidden = false;
+    return;
+  }
+
+  els.signupSubmit.disabled = true;
+  els.signupSubmit.textContent = "Signing up…";
+
+  const payload = {
+    access_key: WEB3FORMS_ACCESS_KEY,
+    subject: "New KC Happy Hour alert signup",
+    from_name: "KC Happy Hour",
+    email: els.signupEmail.value.trim(),
+    phone: els.signupPhone.value.trim() || "(not provided)",
+    area: els.signupCity.value || "(no preference)",
+  };
+
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+    if (data.success) {
+      els.signupForm.hidden = true;
+      els.signupSuccess.hidden = false;
+    } else {
+      throw new Error(data.message || "Something went wrong");
+    }
+  } catch (err) {
+    els.signupError.textContent = "Couldn't sign you up right now — try again in a moment.";
+    els.signupError.hidden = false;
+    els.signupSubmit.disabled = false;
+    els.signupSubmit.textContent = "Sign me up";
+  }
 }
 
 function closeAllPanels() {
