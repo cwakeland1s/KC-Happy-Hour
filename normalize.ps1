@@ -31,6 +31,7 @@ $cityRegion = @{
   "Gladstone"                = "Northland"
   "Liberty"                  = "Northland"
   "Parkville"                = "Northland"
+  "Platte County"            = "Northland"
   "Overland Park"            = "Overland Park & Leawood"
   "Leawood"                  = "Overland Park & Leawood"
   "Prairie Village"          = "Overland Park & Leawood"

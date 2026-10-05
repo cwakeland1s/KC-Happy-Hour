@@ -238,6 +238,23 @@ img { max-width: 100%; display: block; }
 .alert-cta:hover { background: var(--accent-strong); transform: translateY(-1px); box-shadow: var(--shadow-md); }
 .alert-cta svg { width: 16px; height: 16px; }
 
+.day-tabs {
+  display: flex; gap: 8px; margin-top: 26px;
+  overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin;
+}
+.day-tab {
+  position: relative; flex: 0 0 auto;
+  border: 1px solid var(--border-strong); background: var(--bg-elevated); color: var(--text);
+  border-radius: var(--radius-pill); padding: 9px 18px; font-size: 13.5px; font-weight: 700;
+  white-space: nowrap; transition: all .15s ease;
+}
+.day-tab:hover { border-color: var(--accent); }
+.day-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.day-tab.is-today:not(.active)::after {
+  content: ""; position: absolute; top: 6px; right: 7px;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--now-green);
+}
+
 .stats-row {
   margin-top: 22px; display: flex; gap: 22px; flex-wrap: wrap;
   font-size: 13.5px; color: var(--text-muted);

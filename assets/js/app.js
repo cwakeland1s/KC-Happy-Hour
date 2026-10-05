@@ -72,6 +72,7 @@ function cacheEls() {
   els.signupError = document.getElementById("signupError");
   els.signupSubmit = document.getElementById("signupSubmit");
   els.signupSuccess = document.getElementById("signupSuccess");
+  els.dayTabs = document.getElementById("dayTabs");
 }
 
 /* ---------------- theme ---------------- */
@@ -271,6 +272,29 @@ function bindGlobalUI() {
     if (e.target === els.signupOverlay) closeSignup();
   });
   els.signupForm.addEventListener("submit", submitSignup);
+
+  const todayKey = kcNow().day;
+  els.dayTabs.querySelectorAll(".day-tab").forEach((tab) => {
+    if (tab.dataset.day === todayKey) tab.classList.add("is-today");
+    tab.addEventListener("click", () => {
+      const day = tab.dataset.day;
+      state.filters.days.clear();
+      if (day) state.filters.days.add(day);
+      document.querySelectorAll('#dayPanel input[type="checkbox"]').forEach((cb) => {
+        cb.checked = day ? cb.dataset.value === day : false;
+      });
+      render();
+    });
+  });
+}
+
+function syncDayTabs() {
+  const active = state.filters.days;
+  els.dayTabs.querySelectorAll(".day-tab").forEach((tab) => {
+    const day = tab.dataset.day;
+    const isActive = day ? active.size === 1 && active.has(day) : active.size === 0;
+    tab.classList.toggle("active", isActive);
+  });
 }
 
 /* ---------------- signup modal ---------------- */
@@ -392,6 +416,7 @@ function render() {
   renderStats();
   renderChips();
   renderFilterHeads();
+  syncDayTabs();
   renderGrid(filtered);
 }
 
